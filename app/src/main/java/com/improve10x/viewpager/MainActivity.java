@@ -6,8 +6,8 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    ViewPager2 whatsappVp;
-    ViewpagerAdapter adapter;
+   private ViewPager2 whatsappVp;
+  private   ViewpagerAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
